@@ -1,0 +1,22 @@
+h1,p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.text-wrapper{
+    width: 20%;
+    height: 100px;
+    margin: 0 auto;
+    text-align: center;
+}
+.text-wrapper:hover{
+    transition: all 1s;
+    font-size: 2em;
+}
+.text-wrapper:not(:hover){
+    transition: all 1s;
+    font-size: 1em;
+}
+.text-wrapper:hover body{
+    color: red;
+    transition: all 1s;
+}
